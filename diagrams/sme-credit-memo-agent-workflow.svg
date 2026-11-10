@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1146" width="1200" height="1146" role="img" aria-labelledby="t d">
+  <title id="t">sme credit memo preparation: before and after</title>
+  <desc id="d">Left: today: manual, 8 manual steps, ≈ 13 h 30 min of staff time per application. Right: agent workflow, 9 steps, ≈ 2 h 30 min of human time per application.</desc>
+  <rect width="1200" height="1146" fill="#06050f"/>
+  <text x="40" y="52" font-family="Instrument Serif, Georgia, 'Times New Roman', serif" font-size="32" fill="#f2f0fa">sme credit memo preparation: before and after</text>
+  <line x1="600" y1="82" x2="600" y2="1106" stroke="#2b2745"/>
+  <text x="40" y="110" font-family="Instrument Serif, Georgia, 'Times New Roman', serif" font-size="26" fill="#f2f0fa">today: manual</text><text x="640" y="110" font-family="Instrument Serif, Georgia, 'Times New Roman', serif" font-size="26" fill="#f2f0fa">agent workflow</text>
+  
+  <g>
+    <rect x="40" y="132" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="156" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Relationship manager</text>
+    <text x="544" y="156" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">90 min</text>
+    <text x="56" y="178" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Collect 3 years of statements, tax returns and bank</text><text x="56" y="196" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">statements; chase missing items</text>
+  </g><path d="M300 212 V228" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 224 L300 230 L304 224" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="234" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="258" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Credit analyst</text>
+    <text x="544" y="258" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">30 min</text>
+    <text x="56" y="280" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Index the package and check it against the document checklist</text>
+  </g><path d="M300 314 V330" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 326 L300 332 L304 326" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="336" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="360" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Credit analyst</text>
+    <text x="544" y="360" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">180 min</text>
+    <text x="56" y="382" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Key 3 years of financials and tax returns into the spreading</text><text x="56" y="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">tool</text>
+  </g><path d="M300 416 V432" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 428 L300 434 L304 428" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="438" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="462" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Credit analyst</text>
+    <text x="544" y="462" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">60 min</text>
+    <text x="56" y="484" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Read 12 months of bank statements; reconcile deposits to</text><text x="56" y="502" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">reported revenue</text>
+  </g><path d="M300 518 V534" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 530 L300 536 L304 530" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="540" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="564" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Credit analyst</text>
+    <text x="544" y="564" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">60 min</text>
+    <text x="56" y="586" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Compute DSCR, leverage, liquidity and global cash flow with</text><text x="56" y="604" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">guarantors</text>
+  </g><path d="M300 620 V636" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 632 L300 638 L304 632" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="642" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="666" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Credit administration</text>
+    <text x="544" y="666" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">30 min</text>
+    <text x="56" y="688" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Run KYC, sanctions screening and business and personal bureau</text><text x="56" y="706" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">pulls</text>
+  </g><path d="M300 722 V738" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 734 L300 740 L304 734" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="744" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="768" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Credit analyst</text>
+    <text x="544" y="768" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">300 min</text>
+    <text x="56" y="790" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Write the 10–20 page credit memo for committee</text>
+  </g><path d="M300 824 V840" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 836 L300 842 L304 836" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="846" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="870" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Credit manager</text>
+    <text x="544" y="870" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">60 min</text>
+    <text x="56" y="892" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Review the memo, send back edits, sign off for committee</text>
+  </g>
+  <g>
+    <rect x="640" y="132" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="656" y="156" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Intake classifier</text>
+    <text x="1144" y="156" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">Haiku 5.5</text>
+    <text x="656" y="178" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">OCR runs first; label each document and send the RM a</text><text x="656" y="196" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">missing-items list</text>
+  </g><path d="M900 212 V228" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 224 L900 230 L904 224" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="234" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="656" y="258" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Spreading extractor</text>
+    <text x="1144" y="258" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">Sonnet 5.5</text>
+    <text x="656" y="280" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Spread 3 years of statements and tax returns, every figure</text><text x="656" y="298" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">with a page citation</text>
+  </g><path d="M900 314 V330" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 326 L900 332 L904 326" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="336" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="656" y="360" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Bank statement analyst</text>
+    <text x="1144" y="360" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">Haiku 5.5</text>
+    <text x="656" y="382" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Categorise 12 months of transactions; flag overdrafts, NSFs</text><text x="656" y="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">and odd deposits</text>
+  </g><path d="M900 416 V432" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 428 L900 434 L904 428" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="438" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1" stroke-dasharray="5 4"/>
+    <text x="656" y="462" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Ratios, KYC and bureau</text>
+    <text x="1144" y="462" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8"></text>
+    <text x="656" y="484" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Compute DSCR, leverage and liquidity in code; run sanctions</text><text x="656" y="502" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">screening and bureau pulls</text>
+  </g><path d="M900 518 V534" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 530 L900 536 L904 530" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="540" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#ffa54b" stroke-width="1.5"/>
+    <text x="656" y="564" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Credit analyst</text>
+    <text x="1144" y="564" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#ffa54b">human</text>
+    <text x="656" y="586" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Approve the spread and every flagged item before analysis</text><text x="656" y="604" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">starts</text>
+  </g><path d="M900 620 V636" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 632 L900 638 L904 632" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="642" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="656" y="666" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Risk analyst agent</text>
+    <text x="1144" y="666" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">Opus 5.5</text>
+    <text x="656" y="688" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Test against credit policy; list risks, mitigants, exceptions</text><text x="656" y="706" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">and covenant ideas</text>
+  </g><path d="M900 722 V738" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 734 L900 740 L904 734" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="744" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="656" y="768" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Memo drafter</text>
+    <text x="1144" y="768" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">Sonnet 5.5</text>
+    <text x="656" y="790" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Draft the memo section by section in the bank's committee</text><text x="656" y="808" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">template</text>
+  </g><path d="M900 824 V840" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 836 L900 842 L904 836" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="846" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="656" y="870" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Verifier</text>
+    <text x="1144" y="870" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">Haiku 5.5</text>
+    <text x="656" y="892" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Tie every number in the memo back to the approved spread and</text><text x="656" y="910" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">source page</text>
+  </g><path d="M900 926 V942" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 938 L900 944 L904 938" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="948" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#ffa54b" stroke-width="1.5"/>
+    <text x="656" y="972" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Credit analyst and manager</text>
+    <text x="1144" y="972" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#ffa54b">human</text>
+    <text x="656" y="994" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Edit, sign and send to committee. The committee makes the</text><text x="656" y="1012" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">credit decision</text>
+  </g>
+  <text x="40" y="974" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#f2f0fa">≈ 13 h 30 min of staff time per application</text><text x="640" y="1076" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#ffa54b">≈ 2 h 30 min of human time per application</text>
+  <text x="1160" y="1130" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#8e89a8">brass outline = human checkpoint · dashed = deterministic code · seyhunakyurek.com</text>
+</svg>

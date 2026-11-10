@@ -1,0 +1,32 @@
+{
+  "title": "sme credit memo preparation: before and after",
+  "before": {
+    "label": "today: manual",
+    "total": "≈ 13 h 30 min of staff time per application",
+    "steps": [
+      { "actor": "Relationship manager", "task": "Collect 3 years of statements, tax returns and bank statements; chase missing items", "minutes": 90 },
+      { "actor": "Credit analyst", "task": "Index the package and check it against the document checklist", "minutes": 30 },
+      { "actor": "Credit analyst", "task": "Key 3 years of financials and tax returns into the spreading tool", "minutes": 180 },
+      { "actor": "Credit analyst", "task": "Read 12 months of bank statements; reconcile deposits to reported revenue", "minutes": 60 },
+      { "actor": "Credit analyst", "task": "Compute DSCR, leverage, liquidity and global cash flow with guarantors", "minutes": 60 },
+      { "actor": "Credit administration", "task": "Run KYC, sanctions screening and business and personal bureau pulls", "minutes": 30 },
+      { "actor": "Credit analyst", "task": "Write the 10–20 page credit memo for committee", "minutes": 300 },
+      { "actor": "Credit manager", "task": "Review the memo, send back edits, sign off for committee", "minutes": 60 }
+    ]
+  },
+  "after": {
+    "label": "agent workflow",
+    "total": "≈ 2 h 30 min of human time per application",
+    "steps": [
+      { "agent": "Intake classifier", "model": "Haiku 5.5", "kind": "agent", "task": "OCR runs first; label each document and send the RM a missing-items list" },
+      { "agent": "Spreading extractor", "model": "Sonnet 5.5", "kind": "agent", "task": "Spread 3 years of statements and tax returns, every figure with a page citation" },
+      { "agent": "Bank statement analyst", "model": "Haiku 5.5", "kind": "agent", "task": "Categorise 12 months of transactions; flag overdrafts, NSFs and odd deposits" },
+      { "agent": "Ratios, KYC and bureau", "kind": "system", "task": "Compute DSCR, leverage and liquidity in code; run sanctions screening and bureau pulls" },
+      { "agent": "Credit analyst", "kind": "human", "task": "Approve the spread and every flagged item before analysis starts" },
+      { "agent": "Risk analyst agent", "model": "Opus 5.5", "kind": "agent", "task": "Test against credit policy; list risks, mitigants, exceptions and covenant ideas" },
+      { "agent": "Memo drafter", "model": "Sonnet 5.5", "kind": "agent", "task": "Draft the memo section by section in the bank's committee template" },
+      { "agent": "Verifier", "model": "Haiku 5.5", "kind": "agent", "task": "Tie every number in the memo back to the approved spread and source page" },
+      { "agent": "Credit analyst and manager", "kind": "human", "task": "Edit, sign and send to committee. The committee makes the credit decision" }
+    ]
+  }
+}

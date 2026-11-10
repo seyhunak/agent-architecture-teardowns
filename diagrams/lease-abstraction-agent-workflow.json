@@ -1,0 +1,31 @@
+{
+  "title": "lease abstraction: before and after",
+  "before": {
+    "label": "today: manual",
+    "total": "≈ 3 h 30 min of staff time per lease or amendment",
+    "steps": [
+      { "actor": "Leasing coordinator", "task": "Pull the executed lease from email, file it, open an abstract record", "minutes": 8 },
+      { "actor": "Lease administrator", "task": "Read the lease and exhibits end to end, tab the key clauses", "minutes": 55 },
+      { "actor": "Lease administrator", "task": "Key the rent schedule and escalations into the property management system", "minutes": 30 },
+      { "actor": "Lease administrator", "task": "Key CAM terms: pro-rata share, base year, caps, exclusions, gross-ups", "minutes": 25 },
+      { "actor": "Lease administrator", "task": "Key options, critical dates, insurance, use and assignment clauses", "minutes": 25 },
+      { "actor": "Second administrator", "task": "Check every keyed field against the lease, page by page", "minutes": 40 },
+      { "actor": "Lease administrator", "task": "Fix discrepancies and set critical-date reminders", "minutes": 12 },
+      { "actor": "Property accountant", "task": "Set up recurring charges and check the first invoice", "minutes": 15 }
+    ]
+  },
+  "after": {
+    "label": "agent workflow",
+    "total": "≈ 20 min of human time per lease or amendment",
+    "steps": [
+      { "agent": "Intake", "kind": "system", "task": "Watch the lease inbox, OCR the PDF, split body and exhibits, de-duplicate" },
+      { "agent": "Classifier agent", "model": "Haiku 5.5", "kind": "agent", "task": "Label the document type, match property, unit and tenant, route it" },
+      { "agent": "Extractor agent", "model": "Sonnet 5.5", "kind": "agent", "task": "Pull 65 abstract fields in four groups, each with a page and clause citation" },
+      { "agent": "Reviewer agent", "model": "Opus 5.5", "kind": "agent", "task": "Check each field against its citation, apply amendments, score confidence" },
+      { "agent": "Validator", "kind": "system", "task": "Recompute rent steps and escalations, check date order and square footage" },
+      { "agent": "Lease administrator", "kind": "human", "task": "Approve or correct flagged fields with the cited clause side by side" },
+      { "agent": "Writer", "kind": "system", "task": "Post the approved abstract to the property management system, set reminders" },
+      { "agent": "Property accountant", "kind": "human", "task": "Confirm the recurring charges before the first invoice runs" }
+    ]
+  }
+}

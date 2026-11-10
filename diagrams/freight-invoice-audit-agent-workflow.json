@@ -1,0 +1,32 @@
+{
+  "title": "freight invoice audit: before and after",
+  "before": {
+    "label": "today: manual",
+    "total": "≈ 8 min of staff time per invoice (blended)",
+    "steps": [
+      { "actor": "AP clerk", "task": "Sort invoices from the AP inbox, carrier portals and the EDI exception report", "minutes": 0.8 },
+      { "actor": "Logistics clerk", "task": "Find the shipment and rate confirmation in the TMS", "minutes": 1.5 },
+      { "actor": "Logistics clerk", "task": "Check base rate, fuel surcharge and accessorials against the contract or tariff", "minutes": 2.0 },
+      { "actor": "Logistics clerk", "task": "Pull the POD and BOL; check weight, class, detention times and delivery date", "minutes": 1.0 },
+      { "actor": "AP clerk", "task": "Search the ERP for a duplicate by PRO number, amount and date", "minutes": 0.4 },
+      { "actor": "Logistics clerk", "task": "Research overcharges, email the carrier, chase the credit memo", "minutes": 1.5 },
+      { "actor": "AP clerk", "task": "Code to GL and cost centre, key the voucher into the ERP", "minutes": 0.6 },
+      { "actor": "AP supervisor", "task": "Review and release the weekly payment run", "minutes": 0.2 }
+    ]
+  },
+  "after": {
+    "label": "agent workflow",
+    "total": "≈ 0.7 min of human time per invoice (blended)",
+    "steps": [
+      { "agent": "Intake", "kind": "system", "task": "Parse EDI 210s and portal CSVs; OCR PDFs from the AP inbox" },
+      { "agent": "Classifier agent", "model": "Haiku 5.5", "kind": "agent", "task": "Tag each PDF by carrier, mode and document type; route statements and PODs" },
+      { "agent": "Extractor agent", "model": "Sonnet 5.5", "kind": "agent", "task": "Turn PDF invoices into structured line items with page citations" },
+      { "agent": "Rating engine", "kind": "system", "task": "Match to shipment, re-rate from rate tables and fuel index, check POD and duplicates" },
+      { "agent": "Contract interpreter", "model": "Opus 5.5", "kind": "agent", "task": "Rule on accessorials and tariff clauses the rate tables cannot settle" },
+      { "agent": "Dispute drafter", "model": "Sonnet 5.5", "kind": "agent", "task": "Draft the carrier dispute with the evidence pack attached" },
+      { "agent": "Freight audit analyst", "kind": "human", "task": "Approve disputes over $250 and low-confidence exceptions" },
+      { "agent": "GL coding and payment file", "kind": "system", "task": "Code from shipment data, short-pay disputed lines, build the payment file" },
+      { "agent": "AP manager", "kind": "human", "task": "Approve the payment run before it goes to the bank" }
+    ]
+  }
+}

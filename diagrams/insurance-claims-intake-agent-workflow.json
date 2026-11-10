@@ -1,0 +1,32 @@
+{
+  "title": "p&c claims intake (fnol): before and after",
+  "before": {
+    "label": "today: manual",
+    "total": "≈ 34 min of staff time per claim",
+    "steps": [
+      { "actor": "Claims assistant", "task": "Open the email, web form or call note and its attachments; file them to the claim folder", "minutes": 4 },
+      { "actor": "Claims assistant", "task": "Find the policy in the policy admin system; confirm it was in force on the loss date", "minutes": 4 },
+      { "actor": "Claims assistant", "task": "Set up the claim: key date, place, cause, parties, vehicles or property", "minutes": 8 },
+      { "actor": "Claims assistant", "task": "Read the schedule and wording; check peril, exclusions, excess and limits", "minutes": 6 },
+      { "actor": "Claims assistant", "task": "Review photos, police report and repair estimate; note what is missing", "minutes": 5 },
+      { "actor": "Claims assistant", "task": "Check fraud indicators: recent inception, late notice, prior claims, story fit", "minutes": 3 },
+      { "actor": "Claims assistant", "task": "Set the severity band and route to an adjuster queue by authority level", "minutes": 2 },
+      { "actor": "Claims assistant", "task": "Send the acknowledgement and request missing documents", "minutes": 2 }
+    ]
+  },
+  "after": {
+    "label": "agent workflow",
+    "total": "≈ 6 min of human review per claim",
+    "steps": [
+      { "agent": "Intake", "kind": "system", "task": "Watch inbox, web form and call-centre notes; OCR documents; dedupe repeat notices" },
+      { "agent": "Classifier agent", "model": "Haiku 5.5", "kind": "agent", "task": "Label line, loss type, document types and urgency (injury, home uninhabitable)" },
+      { "agent": "Extractor agent", "model": "Sonnet 5.5", "kind": "agent", "task": "Pull FNOL fields from text, documents and photos, each with a source citation" },
+      { "agent": "Policy lookup", "kind": "system", "task": "Fetch the policy as at the loss date, endorsements and claim history by API" },
+      { "agent": "Coverage-check agent", "model": "Opus 5.5", "kind": "agent", "task": "Compare loss facts to the wording; flag exclusions and limits with clause citations" },
+      { "agent": "Fraud-signal agent", "model": "Sonnet 5.5", "kind": "agent", "task": "Score rule hits and narrative gaps (Batch API); never accuses, only flags for review" },
+      { "agent": "Triage agent", "model": "Haiku 5.5", "kind": "agent", "task": "Set severity band, pick the queue from the authority matrix, draft the acknowledgement" },
+      { "agent": "Claims handler", "kind": "human", "task": "Check the intake summary, resolve flags, release the claim to the adjuster" },
+      { "agent": "Adjuster", "kind": "human", "task": "Owns reserves, payments and any denial; SIU reviews high fraud scores" }
+    ]
+  }
+}

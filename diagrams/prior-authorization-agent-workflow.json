@@ -1,0 +1,32 @@
+{
+  "title": "prior authorization: before and after",
+  "before": {
+    "label": "today: manual",
+    "total": "≈ 47 min of staff time per request",
+    "steps": [
+      { "actor": "PA coordinator", "task": "Check eligibility and whether the payer needs auth for this CPT code", "minutes": 5 },
+      { "actor": "PA coordinator", "task": "Pull clinical notes, imaging reports and therapy history from the EHR", "minutes": 10 },
+      { "actor": "PA coordinator", "task": "Read the notes against the payer's medical-necessity policy", "minutes": 8 },
+      { "actor": "PA coordinator", "task": "Key the request into the payer portal, or fill and fax the form", "minutes": 9 },
+      { "actor": "PA coordinator", "task": "Chase status by portal checks and phone calls", "minutes": 7 },
+      { "actor": "PA coordinator", "task": "Answer requests for more information and set up peer-to-peers", "minutes": 3 },
+      { "actor": "Coordinator and clinician", "task": "Draft and send appeals on denials (averaged over all requests)", "minutes": 3 },
+      { "actor": "PA coordinator", "task": "Record the auth number in the EHR and release the scheduling hold", "minutes": 2 }
+    ]
+  },
+  "after": {
+    "label": "agent workflow",
+    "total": "≈ 9 min of human review per request",
+    "steps": [
+      { "agent": "Order intake", "kind": "system", "task": "Pick up the order from the EHR, run eligibility, look up the payer's auth list" },
+      { "agent": "Requirement router", "model": "Haiku 5.5", "kind": "agent", "task": "Decide auth needed, not needed or unclear; send unclear cases to a coordinator" },
+      { "agent": "Evidence gatherer", "kind": "system", "task": "Pull notes, imaging and therapy history for a minimum-necessary window" },
+      { "agent": "Criteria matcher", "model": "Sonnet 5.5", "kind": "agent", "task": "Map evidence to each payer criterion with note citations; flag gaps" },
+      { "agent": "Clinician reviewer", "kind": "human", "task": "Review the evidence summary and sign the clinical attestation" },
+      { "agent": "Packet builder", "model": "Sonnet 5.5", "kind": "agent", "task": "Fill the payer's clinical form fields and assemble the attachments" },
+      { "agent": "Submitter", "kind": "system", "task": "Submit by portal, fax or X12 278 and log the reference number" },
+      { "agent": "Status reader", "model": "Haiku 5.5", "kind": "agent", "task": "Read payer letters and portal status; route approvals, pends and denials" },
+      { "agent": "Appeal drafter", "model": "Opus 5.5", "kind": "agent", "task": "On a denial, draft the appeal against the stated reason for clinician signature" }
+    ]
+  }
+}
