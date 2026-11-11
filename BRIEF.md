@@ -24,6 +24,8 @@ Don't touch any other file.
 title: "I re-engineered <process> using an autonomous agent workflow. Here is the exact architecture and the API costs."
 date: 2026-11-10
 summary: <one or two plain sentences, under 200 characters, with the headline number>
+short_title: "<Process>: agent architecture and API costs"   # 60 characters max: <title>, og:title, the social card
+description: "<the summary cut to 125 characters max>"        # meta and social description
 tags: [agent-architecture, <industry>, <process>, api-costs]
 ---
 ```

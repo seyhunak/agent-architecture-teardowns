@@ -2,6 +2,8 @@
 title: "I re-engineered freight invoice audit using an autonomous agent workflow. Here is the exact architecture and the API costs."
 date: 2026-11-10
 summary: Auditing 25,000 carrier invoices a month with deterministic rating code and four Claude agents costs about $292 a month in API fees, modelled to save around 3,000 staff hours.
+short_title: "Freight invoice audit: agent architecture and API costs"
+description: "Auditing 25,000 carrier invoices a month with four Claude agents: about $292 a month in API fees, ~3,000 hours saved."
 tags: [agent-architecture, logistics, freight-invoice-audit, api-costs]
 ---
 

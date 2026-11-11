@@ -2,6 +2,8 @@
 title: "I re-engineered prior authorization using an autonomous agent workflow. Here is the exact architecture and the API costs."
 date: 2026-11-10
 summary: A multi-agent prior-authorization workflow for a specialty practice doing 3,000 requests a month. About $330 a month in API costs and a modelled 1,900 staff hours saved.
+short_title: "Prior authorization: agent architecture and API costs"
+description: "A prior-auth agent workflow for 3,000 requests a month: about $330 in API costs and a modelled 1,900 hours saved."
 tags: [agent-architecture, healthcare, prior-authorization, api-costs]
 ---
 

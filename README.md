@@ -1,9 +1,11 @@
 # Agent architecture teardowns
 
-Five common industry bottlenecks, each re-engineered as a multi-agent AI workflow. Every post diagrams the manual process beside the agent architecture, then shows the exact agents, models, human checkpoints, failure modes, evaluation plan and **API costs worked out from Claude list prices**.
+Seven common industry bottlenecks, each re-engineered as a multi-agent AI workflow. Every post diagrams the manual process beside the agent architecture, then shows the exact agents, models, human checkpoints, failure modes, evaluation plan and **API costs worked out from Claude list prices**.
 
 | process | summary |
 |---|---|
+| [I re-engineered AML alert triage and investigation](posts/aml-alert-triage-agent-workflow.md) | A six-agent workflow that prepares AML alerts for analyst decision at about 6.5 cents of API cost each, cutting staff time from 60 to a modelled 17 minutes. |
+| [I re-engineered chargeback dispute handling](posts/chargeback-dispute-agent-workflow.md) | Handling 4,000 chargebacks a month with deterministic evidence code and four Claude agents costs about $176 a month in API fees, modelled to save around 1,400 analyst hours. |
 | [I re-engineered freight invoice audit](posts/freight-invoice-audit-agent-workflow.md) | Auditing 25,000 carrier invoices a month with deterministic rating code and four Claude agents costs about $292 a month in API fees, modelled to save around 3,000 staff hours. |
 | [I re-engineered P&C claims intake (first notice of loss)](posts/insurance-claims-intake-agent-workflow.md) | A five-agent FNOL intake workflow for 9,000 motor and home claims a month, modelled at about $0.28 of API cost per claim and $2,517 a month. |
 | [I re-engineered lease abstraction](posts/lease-abstraction-agent-workflow.md) | A four-agent lease abstraction workflow for 120 leases a month costs about $81 a month in API calls and is modelled to save 380 staff hours. |

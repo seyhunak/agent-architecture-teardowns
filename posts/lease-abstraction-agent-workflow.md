@@ -2,6 +2,8 @@
 title: "I re-engineered lease abstraction using an autonomous agent workflow. Here is the exact architecture and the API costs."
 date: 2026-11-10
 summary: A four-agent lease abstraction workflow for 120 leases a month costs about $81 a month in API calls and is modelled to save 380 staff hours.
+short_title: "Lease abstraction: agent architecture and API costs"
+description: "A four-agent lease abstraction workflow for 120 leases a month: about $81 in API calls, a modelled 380 hours saved."
 tags: [agent-architecture, commercial-real-estate, lease-abstraction, api-costs]
 ---
 

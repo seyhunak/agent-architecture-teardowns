@@ -1,0 +1,32 @@
+{
+  "title": "aml alert triage and investigation: before and after",
+  "before": {
+    "label": "today: manual",
+    "total": "≈ 60 min of staff time per alert, averaged",
+    "steps": [
+      { "actor": "L1 analyst", "task": "Open the alert in the case manager; read the rule that fired and the flagged transactions", "minutes": 4 },
+      { "actor": "L1 analyst", "task": "Pull the KYC profile, risk rating and expected activity from the core and KYC systems", "minutes": 8 },
+      { "actor": "L1 analyst", "task": "Review 12 months of transactions and counterparties for a pattern", "minutes": 12 },
+      { "actor": "L1 analyst", "task": "Run name and adverse media searches on the customer and key counterparties", "minutes": 6 },
+      { "actor": "L1 analyst", "task": "Write the disposition rationale; close the alert or escalate it", "minutes": 7 },
+      { "actor": "QA reviewer", "task": "Re-review a 10% sample of closed alerts (20 min each, averaged)", "minutes": 2 },
+      { "actor": "L2 investigator", "task": "Investigate the 10% of alerts escalated (180 min each, averaged)", "minutes": 18 },
+      { "actor": "Investigator and MLRO", "task": "Write the STR narrative, decide and file for the 2% reported (150 min each, averaged)", "minutes": 3 }
+    ]
+  },
+  "after": {
+    "label": "agent workflow",
+    "total": "≈ 17 min of human time per alert, averaged",
+    "steps": [
+      { "agent": "Alert intake and data pull", "kind": "system", "task": "Pull the alert, KYC profile, 12 months of transactions and prior alerts; compute features in code" },
+      { "agent": "Triage router", "model": "Haiku 5.5", "kind": "agent", "task": "Label the typology; send routine alerts to the Haiku lane, complex or high-risk ones to Sonnet and Opus" },
+      { "agent": "Adverse media reviewer", "model": "Haiku 5.5", "kind": "agent", "task": "List screening runs in code first; judge whether each media hit is the same person and relevant" },
+      { "agent": "Evidence analyst", "model": "Sonnet 5.5", "kind": "agent", "task": "Write cited findings against expected activity. Routine alerts run on Haiku 5.5 instead" },
+      { "agent": "Disposition recommender", "model": "Opus 5.5", "kind": "agent", "task": "Recommend close or escalate with a confidence score and a rationale citing the evidence" },
+      { "agent": "Verifier", "model": "Haiku 5.5", "kind": "agent", "task": "Tie every amount, date and counterparty in the rationale back to the evidence pack" },
+      { "agent": "L1 analyst", "kind": "human", "task": "Confirm or overturn every recommendation. No alert closes without a person" },
+      { "agent": "Case and STR drafter", "model": "Sonnet 5.5", "kind": "agent", "task": "Summarise escalated cases for L2; draft the STR narrative when an investigator recommends filing" },
+      { "agent": "Investigator and MLRO", "kind": "human", "task": "Investigate, decide whether to file, and submit through the FIU's reporting system" }
+    ]
+  }
+}

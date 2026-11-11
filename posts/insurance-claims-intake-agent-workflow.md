@@ -2,6 +2,8 @@
 title: "I re-engineered P&C claims intake (first notice of loss) using an autonomous agent workflow. Here is the exact architecture and the API costs."
 date: 2026-11-10
 summary: A five-agent FNOL intake workflow for 9,000 motor and home claims a month, modelled at about $0.28 of API cost per claim and $2,517 a month.
+short_title: "Claims intake (FNOL): agent architecture and API costs"
+description: "A five-agent FNOL intake workflow for 9,000 motor and home claims a month, at about $0.28 of API cost per claim."
 tags: [agent-architecture, insurance, claims-intake, api-costs]
 ---
 

@@ -1,0 +1,33 @@
+{
+  "title": "chargeback disputes: before and after",
+  "before": {
+    "label": "today: manual",
+    "total": "≈ 23 min of staff time per dispute (blended)",
+    "steps": [
+      { "actor": "Dispute analyst", "task": "Pull new disputes from the PSP portals and log them in the tracking sheet", "minutes": 1.0 },
+      { "actor": "Dispute analyst", "task": "Read the notice and reason code; work out what evidence that code needs", "minutes": 2.0 },
+      { "actor": "Dispute analyst", "task": "Find the order in the OMS and the payment record with AVS, CVV and 3-D Secure results", "minutes": 3.0 },
+      { "actor": "Dispute analyst", "task": "Pull carrier tracking and proof of delivery", "minutes": 2.5 },
+      { "actor": "Dispute analyst", "task": "Search the helpdesk for customer emails and chats; check refund history", "minutes": 3.0 },
+      { "actor": "Dispute analyst", "task": "Decide whether to accept or fight", "minutes": 1.5 },
+      { "actor": "Dispute analyst", "task": "Write the rebuttal, build the evidence pack and upload it before the deadline", "minutes": 8.0 },
+      { "actor": "Team lead", "task": "Review high-value responses before submission", "minutes": 1.0 },
+      { "actor": "Dispute analyst", "task": "Track outcomes and reconcile wins and losses with finance", "minutes": 1.0 }
+    ]
+  },
+  "after": {
+    "label": "agent workflow",
+    "total": "≈ 1.9 min of human time per dispute (blended)",
+    "steps": [
+      { "agent": "Intake", "kind": "system", "task": "Receive disputes by PSP webhook, map reason codes, compute the internal deadline" },
+      { "agent": "Triage agent", "model": "Haiku 5.5", "kind": "agent", "task": "Label the claim type from the notice and cardholder text; route by deadline" },
+      { "agent": "Evidence collector", "kind": "system", "task": "Fetch order, payment checks, tracking, helpdesk threads, refunds and prior orders" },
+      { "agent": "Rules engine", "kind": "system", "task": "Auto-accept below the cost-to-fight floor or with no evidence; settle clear cases" },
+      { "agent": "Evidence summariser", "model": "Sonnet 5.5", "kind": "agent", "task": "Pull the facts that matter from customer threads and order notes, with citations" },
+      { "agent": "Decision agent", "model": "Opus 5.5", "kind": "agent", "task": "Decide accept or fight on the cases the rules cannot settle, with a confidence score" },
+      { "agent": "Response drafter", "model": "Sonnet 5.5", "kind": "agent", "task": "Write the rebuttal against the reason code and pick the exhibits" },
+      { "agent": "Dispute analyst", "kind": "human", "task": "Approve fights of $250 or more and every low-confidence decision" },
+      { "agent": "Pack builder and submit", "kind": "system", "task": "Assemble and check the pack, submit through the PSP API, record the outcome" }
+    ]
+  }
+}

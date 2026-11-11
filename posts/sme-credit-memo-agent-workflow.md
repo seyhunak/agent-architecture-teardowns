@@ -2,6 +2,8 @@
 title: "I re-engineered SME credit memo preparation using an autonomous agent workflow. Here is the exact architecture and the API costs."
 date: 2026-11-10
 summary: A six-agent workflow that prepares SME credit memos for committee at about $1.20 in API cost per application, cutting staff time from 13.5 hours to a modelled 2.5.
+short_title: "SME credit memos: agent architecture and API costs"
+description: "Six agents prepare SME credit memos for committee at about $1.20 of API cost each, cutting 13.5 staff hours to 2.5."
 tags: [agent-architecture, banking, credit-memo, api-costs]
 ---
 
