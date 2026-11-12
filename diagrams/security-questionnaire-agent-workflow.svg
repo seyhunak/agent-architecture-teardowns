@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1146" width="1200" height="1146" role="img" aria-labelledby="t d">
+  <title id="t">security questionnaires: before and after</title>
+  <desc id="d">Left: today: manual, 9 manual steps, ≈ 10 h 20 min of staff time per questionnaire (220 questions). Right: agent workflow, 9 steps, ≈ 2 h 50 min of human time per questionnaire.</desc>
+  <rect width="1200" height="1146" fill="#06050f"/>
+  <text x="40" y="52" font-family="Instrument Serif, Georgia, 'Times New Roman', serif" font-size="32" fill="#f2f0fa">security questionnaires: before and after</text>
+  <line x1="600" y1="82" x2="600" y2="1106" stroke="#2b2745"/>
+  <text x="40" y="110" font-family="Instrument Serif, Georgia, 'Times New Roman', serif" font-size="26" fill="#f2f0fa">today: manual</text><text x="640" y="110" font-family="Instrument Serif, Georgia, 'Times New Roman', serif" font-size="26" fill="#f2f0fa">agent workflow</text>
+  
+  <g>
+    <rect x="40" y="132" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="156" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Sales engineer</text>
+    <text x="544" y="156" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">20 min</text>
+    <text x="56" y="178" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Log the request, get the file or portal access, confirm scope</text><text x="56" y="196" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">and due date with the customer</text>
+  </g><path d="M300 212 V228" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 224 L300 230 L304 224" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="234" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="258" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">GRC engineer</text>
+    <text x="544" y="258" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">35 min</text>
+    <text x="56" y="280" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Clean up the spreadsheet or copy questions out of the portal;</text><text x="56" y="298" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">split sections by owner</text>
+  </g><path d="M300 314 V330" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 326 L300 332 L304 326" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="336" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="360" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">GRC engineer</text>
+    <text x="544" y="360" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">180 min</text>
+    <text x="56" y="382" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Search the answer library and past questionnaires; copy and</text><text x="56" y="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">adapt the answers that match</text>
+  </g><path d="M300 416 V432" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 428 L300 434 L304 428" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="438" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="462" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">GRC engineer</text>
+    <text x="544" y="462" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">90 min</text>
+    <text x="56" y="484" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Check the SOC 2 report, ISO 27001 Statement of Applicability,</text><text x="56" y="502" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">policies and trust centre</text>
+  </g><path d="M300 518 V534" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 530 L300 536 L304 530" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="540" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="564" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">GRC engineer</text>
+    <text x="544" y="564" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">120 min</text>
+    <text x="56" y="586" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Draft answers to the questions no earlier answer covers</text>
+  </g><path d="M300 620 V636" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 632 L300 638 L304 632" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="642" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="666" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Engineering owners</text>
+    <text x="544" y="666" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">60 min</text>
+    <text x="56" y="688" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Answer the technical questions sent to infrastructure, AppSec</text><text x="56" y="706" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">and IT</text>
+  </g><path d="M300 722 V738" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 734 L300 740 L304 734" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="744" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="768" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">GRC engineer</text>
+    <text x="544" y="768" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">30 min</text>
+    <text x="56" y="790" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Chase owners, merge their replies, fix contradictions between</text><text x="56" y="808" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">sections</text>
+  </g><path d="M300 824 V840" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 836 L300 842 L304 836" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="846" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="870" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Security lead and legal</text>
+    <text x="544" y="870" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">45 min</text>
+    <text x="56" y="892" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Review answers that touch contracts, certifications or the</text><text x="56" y="910" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">roadmap</text>
+  </g><path d="M300 926 V942" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 938 L300 944 L304 938" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="948" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="972" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Sales engineer</text>
+    <text x="544" y="972" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">40 min</text>
+    <text x="56" y="994" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Write answers back into the customer's format, attach evidence</text><text x="56" y="1012" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">under NDA, submit</text>
+  </g>
+  <g>
+    <rect x="640" y="132" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1" stroke-dasharray="5 4"/>
+    <text x="656" y="156" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Intake parser</text>
+    <text x="1144" y="156" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8"></text>
+    <text x="656" y="178" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Parse the spreadsheet, Word file or portal export into</text><text x="656" y="196" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">questions with cell addresses and answer types</text>
+  </g><path d="M900 212 V228" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 224 L900 230 L904 224" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="234" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="656" y="258" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Question classifier</text>
+    <text x="1144" y="258" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">Haiku 5.5</text>
+    <text x="656" y="280" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Tag each question by control domain and answer type; flag</text><text x="656" y="298" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">anything that touches a commitment</text>
+  </g><path d="M900 314 V330" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 326 L900 332 L904 326" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="336" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1" stroke-dasharray="5 4"/>
+    <text x="656" y="360" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Library matcher</text>
+    <text x="1144" y="360" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8"></text>
+    <text x="656" y="382" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Search the approved answer library; reuse in-date,</text><text x="656" y="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">high-similarity matches verbatim</text>
+  </g><path d="M900 416 V432" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 428 L900 434 L904 428" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="438" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="656" y="462" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Research agent</text>
+    <text x="1144" y="462" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">Sonnet 5.5</text>
+    <text x="656" y="484" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Search policies, audit reports and the trust centre for</text><text x="656" y="502" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">questions with no library candidate</text>
+  </g><path d="M900 518 V534" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 530 L900 536 L904 530" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="540" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="656" y="564" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Answer drafter</text>
+    <text x="1144" y="564" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">Sonnet 5.5</text>
+    <text x="656" y="586" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Draft the rest from library candidates and evidence excerpts,</text><text x="656" y="604" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">with sources and a confidence score</text>
+  </g><path d="M900 620 V636" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 632 L900 638 L904 632" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="642" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="656" y="666" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Consistency reviewer</text>
+    <text x="1144" y="666" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">Opus 5.5</text>
+    <text x="656" y="688" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Read the whole questionnaire for contradictions,</text><text x="656" y="706" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">overcommitments and certification scope</text>
+  </g><path d="M900 722 V738" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 734 L900 740 L904 734" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="744" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#ffa54b" stroke-width="1.5"/>
+    <text x="656" y="768" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Answer owners</text>
+    <text x="1144" y="768" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#ffa54b">human</text>
+    <text x="656" y="790" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Approve every new, changed, low-confidence or commitment</text><text x="656" y="808" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">answer in their own domain</text>
+  </g><path d="M900 824 V840" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 836 L900 842 L904 836" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="846" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#ffa54b" stroke-width="1.5"/>
+    <text x="656" y="870" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">GRC lead</text>
+    <text x="1144" y="870" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#ffa54b">human</text>
+    <text x="656" y="892" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Sign off the whole questionnaire; nothing goes to the customer</text><text x="656" y="910" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">before this</text>
+  </g><path d="M900 926 V942" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 938 L900 944 L904 938" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="948" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1" stroke-dasharray="5 4"/>
+    <text x="656" y="972" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Export and library</text>
+    <text x="1144" y="972" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8"></text>
+    <text x="656" y="994" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Write answers into the original format, check the NDA before</text><text x="656" y="1012" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">attaching reports, update the library</text>
+  </g>
+  <text x="40" y="1076" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#f2f0fa">≈ 10 h 20 min of staff time per questionnaire (220 questions)</text><text x="640" y="1076" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#ffa54b">≈ 2 h 50 min of human time per questionnaire</text>
+  <text x="1160" y="1130" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#8e89a8">brass outline = human checkpoint · dashed = deterministic code · seyhunakyurek.com</text>
+</svg>

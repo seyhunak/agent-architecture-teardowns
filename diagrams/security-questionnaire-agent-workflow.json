@@ -1,0 +1,33 @@
+{
+  "title": "security questionnaires: before and after",
+  "before": {
+    "label": "today: manual",
+    "total": "≈ 10 h 20 min of staff time per questionnaire (220 questions)",
+    "steps": [
+      { "actor": "Sales engineer", "task": "Log the request, get the file or portal access, confirm scope and due date with the customer", "minutes": 20 },
+      { "actor": "GRC engineer", "task": "Clean up the spreadsheet or copy questions out of the portal; split sections by owner", "minutes": 35 },
+      { "actor": "GRC engineer", "task": "Search the answer library and past questionnaires; copy and adapt the answers that match", "minutes": 180 },
+      { "actor": "GRC engineer", "task": "Check the SOC 2 report, ISO 27001 Statement of Applicability, policies and trust centre", "minutes": 90 },
+      { "actor": "GRC engineer", "task": "Draft answers to the questions no earlier answer covers", "minutes": 120 },
+      { "actor": "Engineering owners", "task": "Answer the technical questions sent to infrastructure, AppSec and IT", "minutes": 60 },
+      { "actor": "GRC engineer", "task": "Chase owners, merge their replies, fix contradictions between sections", "minutes": 30 },
+      { "actor": "Security lead and legal", "task": "Review answers that touch contracts, certifications or the roadmap", "minutes": 45 },
+      { "actor": "Sales engineer", "task": "Write answers back into the customer's format, attach evidence under NDA, submit", "minutes": 40 }
+    ]
+  },
+  "after": {
+    "label": "agent workflow",
+    "total": "≈ 2 h 50 min of human time per questionnaire",
+    "steps": [
+      { "agent": "Intake parser", "kind": "system", "task": "Parse the spreadsheet, Word file or portal export into questions with cell addresses and answer types" },
+      { "agent": "Question classifier", "model": "Haiku 5.5", "kind": "agent", "task": "Tag each question by control domain and answer type; flag anything that touches a commitment" },
+      { "agent": "Library matcher", "kind": "system", "task": "Search the approved answer library; reuse in-date, high-similarity matches verbatim" },
+      { "agent": "Research agent", "model": "Sonnet 5.5", "kind": "agent", "task": "Search policies, audit reports and the trust centre for questions with no library candidate" },
+      { "agent": "Answer drafter", "model": "Sonnet 5.5", "kind": "agent", "task": "Draft the rest from library candidates and evidence excerpts, with sources and a confidence score" },
+      { "agent": "Consistency reviewer", "model": "Opus 5.5", "kind": "agent", "task": "Read the whole questionnaire for contradictions, overcommitments and certification scope" },
+      { "agent": "Answer owners", "kind": "human", "task": "Approve every new, changed, low-confidence or commitment answer in their own domain" },
+      { "agent": "GRC lead", "kind": "human", "task": "Sign off the whole questionnaire; nothing goes to the customer before this" },
+      { "agent": "Export and library", "kind": "system", "task": "Write answers into the original format, check the NDA before attaching reports, update the library" }
+    ]
+  }
+}

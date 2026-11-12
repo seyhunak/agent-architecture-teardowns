@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1146" width="1200" height="1146" role="img" aria-labelledby="t d">
+  <title id="t">letter of credit document examination: before and after</title>
+  <desc id="d">Left: today: manual, 8 manual steps, ≈ 95 min of staff time per presentation, averaged. Right: agent workflow, 9 steps, ≈ 25 min of human time per presentation, averaged.</desc>
+  <rect width="1200" height="1146" fill="#06050f"/>
+  <text x="40" y="52" font-family="Instrument Serif, Georgia, 'Times New Roman', serif" font-size="32" fill="#f2f0fa">letter of credit document examination: before and after</text>
+  <line x1="600" y1="82" x2="600" y2="1106" stroke="#2b2745"/>
+  <text x="40" y="110" font-family="Instrument Serif, Georgia, 'Times New Roman', serif" font-size="26" fill="#f2f0fa">today: manual</text><text x="640" y="110" font-family="Instrument Serif, Georgia, 'Times New Roman', serif" font-size="26" fill="#f2f0fa">agent workflow</text>
+  
+  <g>
+    <rect x="40" y="132" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="156" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Trade ops clerk</text>
+    <text x="544" y="156" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">6 min</text>
+    <text x="56" y="178" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Receive the courier presentation, stamp the date of receipt,</text><text x="56" y="196" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">count originals and log it</text>
+  </g><path d="M300 212 V228" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 224 L300 230 L304 224" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="234" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="258" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Trade ops clerk</text>
+    <text x="544" y="258" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">6 min</text>
+    <text x="56" y="280" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Scan and index the documents; pull the credit and its</text><text x="56" y="298" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">amendments from the trade system</text>
+  </g><path d="M300 314 V330" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 326 L300 332 L304 326" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="336" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="360" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Document checker</text>
+    <text x="544" y="360" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">32 min</text>
+    <text x="56" y="382" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Check each document against the credit terms under UCP 600 and</text><text x="56" y="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">ISBP 821</text>
+  </g><path d="M300 416 V432" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 428 L300 434 L304 428" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="438" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="462" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Document checker</text>
+    <text x="544" y="462" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">14 min</text>
+    <text x="56" y="484" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Cross-check data between documents and recompute the invoice</text><text x="56" y="502" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">arithmetic</text>
+  </g><path d="M300 518 V534" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 530 L300 536 L304 530" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="540" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="564" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Trade compliance analyst</text>
+    <text x="544" y="564" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">12 min</text>
+    <text x="56" y="586" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Screen parties, vessels, ports and goods against sanctions and</text><text x="56" y="604" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">dual-use lists</text>
+  </g><path d="M300 620 V636" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 632 L300 638 L304 632" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="642" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="666" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Trade compliance analyst</text>
+    <text x="544" y="666" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">7 min</text>
+    <text x="56" y="688" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Review trade-based money laundering red flags: pricing,</text><text x="56" y="706" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">routing and customer profile</text>
+  </g><path d="M300 722 V738" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 734 L300 740 L304 734" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="744" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="768" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Senior checker</text>
+    <text x="544" y="768" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">10 min</text>
+    <text x="56" y="790" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Four-eyes review of the examination; decide to honour or</text><text x="56" y="808" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">refuse</text>
+  </g><path d="M300 824 V840" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 836 L300 842 L304 836" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="846" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="870" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Document checker</text>
+    <text x="544" y="870" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">8 min</text>
+    <text x="56" y="892" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Draft the refusal notice or waiver request, or the settlement</text><text x="56" y="910" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">instruction (averaged)</text>
+  </g>
+  <g>
+    <rect x="640" y="132" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1" stroke-dasharray="5 4"/>
+    <text x="656" y="156" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Intake and OCR</text>
+    <text x="1144" y="156" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8"></text>
+    <text x="656" y="178" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Register the presentation, OCR the scans, pull the MT700 and</text><text x="656" y="196" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">MT707s, compute the day-five deadline</text>
+  </g><path d="M900 212 V228" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 224 L900 230 L904 224" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="234" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="656" y="258" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Document classifier</text>
+    <text x="1144" y="258" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">Haiku 5.5</text>
+    <text x="656" y="280" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Label every page by document type and flag documents the</text><text x="656" y="298" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">credit calls for but are missing</text>
+  </g><path d="M900 314 V330" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 326 L900 332 L904 326" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="336" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="656" y="360" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Field extractor</text>
+    <text x="1144" y="360" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">Sonnet 5.5</text>
+    <text x="656" y="382" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Extract each document's fields with page citations, one call</text><text x="656" y="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">per document</text>
+  </g><path d="M900 416 V432" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 428 L900 434 L904 428" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="438" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1" stroke-dasharray="5 4"/>
+    <text x="656" y="462" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Rules engine and screening</text>
+    <text x="1144" y="462" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8"></text>
+    <text x="656" y="484" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Check dates, amounts, tolerances and arithmetic; screen names,</text><text x="656" y="502" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">vessels, ports and goods</text>
+  </g><path d="M900 518 V534" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 530 L900 536 L904 530" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="540" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="656" y="564" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Discrepancy examiner</text>
+    <text x="1144" y="564" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">Opus 5.5</text>
+    <text x="656" y="586" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Judge conflicts and wording against the credit and ISBP 821;</text><text x="656" y="604" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">cite each proposed discrepancy</text>
+  </g><path d="M900 620 V636" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 632 L900 638 L904 632" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="642" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="656" y="666" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">TBML reviewer</text>
+    <text x="1144" y="666" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">Sonnet 5.5</text>
+    <text x="656" y="688" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Weigh price, route, goods and parties against the customer</text><text x="656" y="706" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">profile; list red flags</text>
+  </g><path d="M900 722 V738" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 734 L900 740 L904 734" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="744" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#ffa54b" stroke-width="1.5"/>
+    <text x="656" y="768" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Trade compliance officer</text>
+    <text x="1144" y="768" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#ffa54b">human</text>
+    <text x="656" y="790" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Clear or escalate every screening hit and red flag. No agent</text><text x="656" y="808" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">clears a sanctions hit</text>
+  </g><path d="M900 824 V840" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 836 L900 842 L904 836" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="846" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="656" y="870" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Notice drafter</text>
+    <text x="1144" y="870" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">Sonnet 5.5</text>
+    <text x="656" y="892" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Draft the single refusal notice or waiver request from the</text><text x="656" y="910" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">discrepancies the checker confirms</text>
+  </g><path d="M900 926 V942" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 938 L900 944 L904 938" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="948" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#ffa54b" stroke-width="1.5"/>
+    <text x="656" y="972" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Checker and senior checker</text>
+    <text x="1144" y="972" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#ffa54b">human</text>
+    <text x="656" y="994" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Decide honour or refuse, approve the notice and send it. Every</text><text x="656" y="1012" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">presentation gets a person</text>
+  </g>
+  <text x="40" y="974" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#f2f0fa">≈ 95 min of staff time per presentation, averaged</text><text x="640" y="1076" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#ffa54b">≈ 25 min of human time per presentation, averaged</text>
+  <text x="1160" y="1130" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#8e89a8">brass outline = human checkpoint · dashed = deterministic code · seyhunakyurek.com</text>
+</svg>

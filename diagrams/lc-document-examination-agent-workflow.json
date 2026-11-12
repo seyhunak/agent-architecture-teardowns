@@ -1,0 +1,32 @@
+{
+  "title": "letter of credit document examination: before and after",
+  "before": {
+    "label": "today: manual",
+    "total": "≈ 95 min of staff time per presentation, averaged",
+    "steps": [
+      { "actor": "Trade ops clerk", "task": "Receive the courier presentation, stamp the date of receipt, count originals and log it", "minutes": 6 },
+      { "actor": "Trade ops clerk", "task": "Scan and index the documents; pull the credit and its amendments from the trade system", "minutes": 6 },
+      { "actor": "Document checker", "task": "Check each document against the credit terms under UCP 600 and ISBP 821", "minutes": 32 },
+      { "actor": "Document checker", "task": "Cross-check data between documents and recompute the invoice arithmetic", "minutes": 14 },
+      { "actor": "Trade compliance analyst", "task": "Screen parties, vessels, ports and goods against sanctions and dual-use lists", "minutes": 12 },
+      { "actor": "Trade compliance analyst", "task": "Review trade-based money laundering red flags: pricing, routing and customer profile", "minutes": 7 },
+      { "actor": "Senior checker", "task": "Four-eyes review of the examination; decide to honour or refuse", "minutes": 10 },
+      { "actor": "Document checker", "task": "Draft the refusal notice or waiver request, or the settlement instruction (averaged)", "minutes": 8 }
+    ]
+  },
+  "after": {
+    "label": "agent workflow",
+    "total": "≈ 25 min of human time per presentation, averaged",
+    "steps": [
+      { "agent": "Intake and OCR", "kind": "system", "task": "Register the presentation, OCR the scans, pull the MT700 and MT707s, compute the day-five deadline" },
+      { "agent": "Document classifier", "model": "Haiku 5.5", "kind": "agent", "task": "Label every page by document type and flag documents the credit calls for but are missing" },
+      { "agent": "Field extractor", "model": "Sonnet 5.5", "kind": "agent", "task": "Extract each document's fields with page citations, one call per document" },
+      { "agent": "Rules engine and screening", "kind": "system", "task": "Check dates, amounts, tolerances and arithmetic; screen names, vessels, ports and goods" },
+      { "agent": "Discrepancy examiner", "model": "Opus 5.5", "kind": "agent", "task": "Judge conflicts and wording against the credit and ISBP 821; cite each proposed discrepancy" },
+      { "agent": "TBML reviewer", "model": "Sonnet 5.5", "kind": "agent", "task": "Weigh price, route, goods and parties against the customer profile; list red flags" },
+      { "agent": "Trade compliance officer", "kind": "human", "task": "Clear or escalate every screening hit and red flag. No agent clears a sanctions hit" },
+      { "agent": "Notice drafter", "model": "Sonnet 5.5", "kind": "agent", "task": "Draft the single refusal notice or waiver request from the discrepancies the checker confirms" },
+      { "agent": "Checker and senior checker", "kind": "human", "task": "Decide honour or refuse, approve the notice and send it. Every presentation gets a person" }
+    ]
+  }
+}
