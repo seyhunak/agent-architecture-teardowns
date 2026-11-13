@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1146" width="1200" height="1146" role="img" aria-labelledby="t d">
+  <title id="t">retail bank complaint handling: before and after</title>
+  <desc id="d">Left: today: manual, 9 manual steps, ≈ 84 min of staff time per complaint, averaged. Right: agent workflow, 9 steps, ≈ 26 min of human time per complaint, averaged.</desc>
+  <rect width="1200" height="1146" fill="#06050f"/>
+  <text x="40" y="52" font-family="Instrument Serif, Georgia, 'Times New Roman', serif" font-size="32" fill="#f2f0fa">retail bank complaint handling: before and after</text>
+  <line x1="600" y1="82" x2="600" y2="1106" stroke="#2b2745"/>
+  <text x="40" y="110" font-family="Instrument Serif, Georgia, 'Times New Roman', serif" font-size="26" fill="#f2f0fa">today: manual</text><text x="640" y="110" font-family="Instrument Serif, Georgia, 'Times New Roman', serif" font-size="26" fill="#f2f0fa">agent workflow</text>
+  
+  <g>
+    <rect x="40" y="132" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="156" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Complaints officer</text>
+    <text x="544" y="156" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">6 min</text>
+    <text x="56" y="178" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Log the complaint from email, app, call notes or a branch form</text><text x="56" y="196" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">into the complaints system</text>
+  </g><path d="M300 212 V228" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 224 L300 230 L304 224" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="234" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="258" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Complaints officer</text>
+    <text x="544" y="258" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">4 min</text>
+    <text x="56" y="280" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Classify product, issue and severity; flag vulnerability; set</text><text x="56" y="298" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">the internal SLA date</text>
+  </g><path d="M300 314 V330" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 326 L300 332 L304 326" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="336" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="360" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Case handler</text>
+    <text x="544" y="360" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">20 min</text>
+    <text x="56" y="382" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Pull statements, card transactions, CRM history and call notes</text><text x="56" y="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">from four or five systems</text>
+  </g><path d="M300 416 V432" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 428 L300 434 L304 428" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="438" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="462" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Case handler</text>
+    <text x="544" y="462" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">12 min</text>
+    <text x="56" y="484" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Ask card operations or the branch for what the systems don't</text><text x="56" y="502" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">show, and chase the reply</text>
+  </g><path d="M300 518 V534" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 530 L300 536 L304 530" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="540" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="564" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Case handler</text>
+    <text x="544" y="564" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">15 min</text>
+    <text x="56" y="586" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Check the facts against product terms and the fee schedule;</text><text x="56" y="604" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">decide the outcome and redress</text>
+  </g><path d="M300 620 V636" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 632 L300 638 L304 632" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="642" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="666" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Case handler</text>
+    <text x="544" y="666" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">15 min</text>
+    <text x="56" y="688" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Draft the final response letter in Arabic or English from a</text><text x="56" y="706" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">template</text>
+  </g><path d="M300 722 V738" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 734 L300 740 L304 734" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="744" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="768" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Team leader</text>
+    <text x="544" y="768" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">6 min</text>
+    <text x="56" y="790" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Review the outcome and letter; sign off and send</text>
+  </g><path d="M300 824 V840" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 836 L300 842 L304 836" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="846" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="870" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Complaints MI analyst</text>
+    <text x="544" y="870" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">3 min</text>
+    <text x="56" y="892" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Tag the root cause and compile the monthly regulatory</text><text x="56" y="910" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">complaints return</text>
+  </g><path d="M300 926 V942" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 938 L300 944 L304 938" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="948" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="972" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Senior handler</text>
+    <text x="544" y="972" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">3 min</text>
+    <text x="56" y="994" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Handle the 5% escalated or referred to Sanadak (60 min each,</text><text x="56" y="1012" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">averaged)</text>
+  </g>
+  <g>
+    <rect x="640" y="132" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1" stroke-dasharray="5 4"/>
+    <text x="656" y="156" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Intake and normaliser</text>
+    <text x="1144" y="156" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8"></text>
+    <text x="656" y="178" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Pull every channel into one record; OCR branch forms; match</text><text x="656" y="196" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">the customer; remove duplicates</text>
+  </g><path d="M900 212 V228" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 224 L900 230 L904 224" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="234" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="656" y="258" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Intake classifier</text>
+    <text x="1144" y="258" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">Haiku 5.5</text>
+    <text x="656" y="280" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Extract product, issue, amounts, the remedy asked for and</text><text x="656" y="298" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">vulnerability signals; pick a lane</text>
+  </g><path d="M900 314 V330" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 326 L900 332 L904 326" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="336" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1" stroke-dasharray="5 4"/>
+    <text x="656" y="360" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Regulatory clock</text>
+    <text x="1144" y="360" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8"></text>
+    <text x="656" y="382" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Start the internal SLA timer, send the acknowledgement, alert</text><text x="656" y="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">before any deadline is at risk</text>
+  </g><path d="M900 416 V432" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 428 L900 434 L904 428" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="438" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="656" y="462" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Evidence gatherer</text>
+    <text x="1144" y="462" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">Sonnet 5.5</text>
+    <text x="656" y="484" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Query core banking, cards and CRM read-only; build a cited</text><text x="656" y="502" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">evidence pack. Simple lane: recommend</text>
+  </g><path d="M900 518 V534" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 530 L900 536 L904 530" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="540" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="656" y="564" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Outcome recommender</text>
+    <text x="1144" y="564" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">Opus 5.5</text>
+    <text x="656" y="586" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Standard and complex lanes: weigh evidence against terms and</text><text x="656" y="604" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">policy; recommend uphold or not</text>
+  </g><path d="M900 620 V636" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 632 L900 638 L904 632" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="642" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#ffa54b" stroke-width="1.5"/>
+    <text x="656" y="666" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Case handler</text>
+    <text x="1144" y="666" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#ffa54b">human</text>
+    <text x="656" y="688" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Confirm or change every outcome; code computes the redress</text><text x="656" y="706" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">from the fee schedule</text>
+  </g><path d="M900 722 V738" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 734 L900 740 L904 734" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="744" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="656" y="768" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Letter drafter</text>
+    <text x="1144" y="768" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">Sonnet 5.5</text>
+    <text x="656" y="790" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Draft the final response letter in the customer's language; a</text><text x="656" y="808" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Haiku verifier checks every figure</text>
+  </g><path d="M900 824 V840" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 836 L900 842 L904 836" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="846" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#ffa54b" stroke-width="1.5"/>
+    <text x="656" y="870" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Team leader</text>
+    <text x="1144" y="870" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#ffa54b">human</text>
+    <text x="656" y="892" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Sign off every letter; nothing reaches the customer before</text><text x="656" y="910" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">this</text>
+  </g><path d="M900 926 V942" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 938 L900 944 L904 938" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="948" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="656" y="972" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Root-cause tagger</text>
+    <text x="1144" y="972" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">Haiku 5.5</text>
+    <text x="656" y="994" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Tag the root cause on closure; code builds the monthly</text><text x="656" y="1012" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">regulatory return for sign-off</text>
+  </g>
+  <text x="40" y="1076" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#f2f0fa">≈ 84 min of staff time per complaint, averaged</text><text x="640" y="1076" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#ffa54b">≈ 26 min of human time per complaint, averaged</text>
+  <text x="1160" y="1130" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#8e89a8">brass outline = human checkpoint · dashed = deterministic code · seyhunakyurek.com</text>
+</svg>

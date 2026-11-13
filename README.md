@@ -1,11 +1,12 @@
 # Agent architecture teardowns
 
-Nine common industry bottlenecks, each re-engineered as a multi-agent AI workflow. Every post diagrams the manual process beside the agent architecture, then shows the exact agents, models, human checkpoints, failure modes, evaluation plan and **API costs worked out from Claude list prices**.
+Ten common industry bottlenecks, each re-engineered as a multi-agent AI workflow. Every post diagrams the manual process beside the agent architecture, then shows the exact agents, models, human checkpoints, failure modes, evaluation plan and **API costs worked out from Claude list prices**.
 
 | process | summary |
 |---|---|
 | [AML alert triage](posts/aml-alert-triage-agent-workflow.md) | A six-agent workflow that prepares AML alerts for analyst decision at about 6.5 cents of API cost each, cutting staff time from 60 to a modelled 17 minutes. |
 | [Chargeback disputes](posts/chargeback-dispute-agent-workflow.md) | Handling 4,000 chargebacks a month with deterministic evidence code and four Claude agents costs about $176 a month in API fees, modelled to save around 1,400 analyst hours. |
+| [Bank complaint handling](posts/complaint-handling-agent-workflow.md) | Seven agents prepare retail bank complaints for human sign-off at about 16 cents of API cost each, cutting staff time from 84 to a modelled 26 minutes. |
 | [Freight invoice audit](posts/freight-invoice-audit-agent-workflow.md) | Auditing 25,000 carrier invoices a month with deterministic rating code and four Claude agents costs about $292 a month in API fees, modelled to save around 3,000 staff hours. |
 | [Claims intake (FNOL)](posts/insurance-claims-intake-agent-workflow.md) | A five-agent FNOL intake workflow for 9,000 motor and home claims a month, modelled at about $0.28 of API cost per claim and $2,517 a month. |
 | [LC document checking](posts/lc-document-examination-agent-workflow.md) | Five Claude agents prepare letter of credit presentations for a checker's decision at about 31 cents of API cost each, cutting modelled staff time from 95 to 25 minutes. |

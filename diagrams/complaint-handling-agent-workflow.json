@@ -1,0 +1,33 @@
+{
+  "title": "retail bank complaint handling: before and after",
+  "before": {
+    "label": "today: manual",
+    "total": "≈ 84 min of staff time per complaint, averaged",
+    "steps": [
+      { "actor": "Complaints officer", "task": "Log the complaint from email, app, call notes or a branch form into the complaints system", "minutes": 6 },
+      { "actor": "Complaints officer", "task": "Classify product, issue and severity; flag vulnerability; set the internal SLA date", "minutes": 4 },
+      { "actor": "Case handler", "task": "Pull statements, card transactions, CRM history and call notes from four or five systems", "minutes": 20 },
+      { "actor": "Case handler", "task": "Ask card operations or the branch for what the systems don't show, and chase the reply", "minutes": 12 },
+      { "actor": "Case handler", "task": "Check the facts against product terms and the fee schedule; decide the outcome and redress", "minutes": 15 },
+      { "actor": "Case handler", "task": "Draft the final response letter in Arabic or English from a template", "minutes": 15 },
+      { "actor": "Team leader", "task": "Review the outcome and letter; sign off and send", "minutes": 6 },
+      { "actor": "Complaints MI analyst", "task": "Tag the root cause and compile the monthly regulatory complaints return", "minutes": 3 },
+      { "actor": "Senior handler", "task": "Handle the 5% escalated or referred to Sanadak (60 min each, averaged)", "minutes": 3 }
+    ]
+  },
+  "after": {
+    "label": "agent workflow",
+    "total": "≈ 26 min of human time per complaint, averaged",
+    "steps": [
+      { "agent": "Intake and normaliser", "kind": "system", "task": "Pull every channel into one record; OCR branch forms; match the customer; remove duplicates" },
+      { "agent": "Intake classifier", "model": "Haiku 5.5", "kind": "agent", "task": "Extract product, issue, amounts, the remedy asked for and vulnerability signals; pick a lane" },
+      { "agent": "Regulatory clock", "kind": "system", "task": "Start the internal SLA timer, send the acknowledgement, alert before any deadline is at risk" },
+      { "agent": "Evidence gatherer", "model": "Sonnet 5.5", "kind": "agent", "task": "Query core banking, cards and CRM read-only; build a cited evidence pack. Simple lane: recommend" },
+      { "agent": "Outcome recommender", "model": "Opus 5.5", "kind": "agent", "task": "Standard and complex lanes: weigh evidence against terms and policy; recommend uphold or not" },
+      { "agent": "Case handler", "kind": "human", "task": "Confirm or change every outcome; code computes the redress from the fee schedule" },
+      { "agent": "Letter drafter", "model": "Sonnet 5.5", "kind": "agent", "task": "Draft the final response letter in the customer's language; a Haiku verifier checks every figure" },
+      { "agent": "Team leader", "kind": "human", "task": "Sign off every letter; nothing reaches the customer before this" },
+      { "agent": "Root-cause tagger", "model": "Haiku 5.5", "kind": "agent", "task": "Tag the root cause on closure; code builds the monthly regulatory return for sign-off" }
+    ]
+  }
+}
