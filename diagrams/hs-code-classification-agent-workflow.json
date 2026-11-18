@@ -1,0 +1,32 @@
+{
+  "title": "hs code classification: before and after",
+  "before": {
+    "label": "today: manual",
+    "total": "≈ 26 min of staff time per product line (blended)",
+    "steps": [
+      { "actor": "Classification assistant", "task": "Collect product lists and spec sheets from the client; chase missing material and use details", "minutes": 3 },
+      { "actor": "Customs specialist", "task": "Read the spec sheet: what the product is, what it is made of, what it does", "minutes": 4 },
+      { "actor": "Customs specialist", "task": "Search the nomenclature: section and chapter notes, candidate headings and subheadings", "minutes": 6 },
+      { "actor": "Customs specialist", "task": "Apply the GRIs in order, check the explanatory notes, settle on a CN or TARIC code", "minutes": 4 },
+      { "actor": "Customs specialist", "task": "Search EBTI, classification regulations and the firm's past rulings for comparable goods", "minutes": 3 },
+      { "actor": "Classification assistant", "task": "Look up duty, preferential rates, trade remedies and restrictions in TARIC", "minutes": 2 },
+      { "actor": "Senior customs specialist", "task": "Review and sign off the code and the rationale", "minutes": 2 },
+      { "actor": "Classification assistant", "task": "Key the code into the client's product master and file the rationale", "minutes": 2 }
+    ]
+  },
+  "after": {
+    "label": "agent workflow",
+    "total": "≈ 5.7 min of specialist time per product line (blended)",
+    "steps": [
+      { "agent": "Intake", "kind": "system", "task": "Load product lists and spec sheets, OCR PDFs, drop lines already in the product master" },
+      { "agent": "Spec extractor", "model": "Sonnet 5.5", "kind": "agent", "task": "Pull material, composition, function and presentation; draft questions for missing facts" },
+      { "agent": "Variant matcher", "model": "Haiku 5.5", "kind": "agent", "task": "Spot colour and size variants of products already classified and signed off" },
+      { "agent": "Candidate retrieval", "kind": "system", "task": "Retrieve headings, section and chapter notes, explanatory notes, BTIs and regulations" },
+      { "agent": "Classifier", "model": "Opus 5.5", "kind": "agent", "task": "Apply GRI 1 to 6 in order; propose the code with cited notes and rejected alternatives" },
+      { "agent": "Rulings checker", "model": "Sonnet 5.5", "kind": "agent", "task": "Test the proposal against BTIs, classification regulations and the firm's past rulings" },
+      { "agent": "Measures lookup", "kind": "system", "task": "Pull duty, preferential rates, trade remedies and restrictions for the code and origin" },
+      { "agent": "Licensed customs specialist", "kind": "human", "task": "Sign off every new code; full review of low-confidence lines and conflicts" },
+      { "agent": "Audit trail", "kind": "system", "task": "Write code, sources, nomenclature version, models and reviewer to the product master" }
+    ]
+  }
+}
