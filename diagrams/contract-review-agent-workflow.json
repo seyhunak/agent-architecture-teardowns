@@ -1,0 +1,32 @@
+{
+  "title": "contract review against a playbook: before and after",
+  "before": {
+    "label": "today: manual",
+    "total": "≈ 93 min of legal time per contract (blended)",
+    "steps": [
+      { "actor": "Contract manager", "task": "Log the request in the CLM, pull the deal context, identify the paper type and counterparty", "minutes": 5 },
+      { "actor": "Commercial lawyer", "task": "Read the whole contract, including definitions, schedules and cross-references", "minutes": 20 },
+      { "actor": "Commercial lawyer", "task": "Compare each clause with the playbook and note every deviation and missing clause", "minutes": 20 },
+      { "actor": "Commercial lawyer", "task": "Draft redlines and comments, copying fallback wording from precedent agreements", "minutes": 25 },
+      { "actor": "Commercial lawyer", "task": "Check the DPA against Article 28 and the security schedule against policy", "minutes": 6 },
+      { "actor": "Commercial lawyer", "task": "Write a risk note for the deal owner and request approval for off-playbook positions", "minutes": 8 },
+      { "actor": "Senior counsel", "task": "Approve or reject escalated positions on liability, indemnity and data protection", "minutes": 4 },
+      { "actor": "Contract manager", "task": "Send the redline, track versions and update the CLM record", "minutes": 5 }
+    ]
+  },
+  "after": {
+    "label": "agent workflow",
+    "total": "≈ 27 min of legal time per contract (blended)",
+    "steps": [
+      { "agent": "Intake and segmenter", "kind": "system", "task": "Convert the file, split it into numbered clauses, attach definitions and cross-references" },
+      { "agent": "Clause classifier", "model": "Haiku 5.5", "kind": "agent", "task": "Label each clause against the clause taxonomy, with a confidence score" },
+      { "agent": "Playbook comparison", "model": "Sonnet 5.5", "kind": "agent", "task": "Compare each clause with the standard and fallback positions; quote every deviation" },
+      { "agent": "Coverage checks", "kind": "system", "task": "Flag missing required clauses, verify quotes word for word, apply the approval matrix" },
+      { "agent": "Redline drafter", "model": "Sonnet 5.5", "kind": "agent", "task": "Draft standard redlines from approved fallback wording in the clause library" },
+      { "agent": "Redline drafter", "model": "Opus 5.5", "kind": "agent", "task": "Draft non-standard redlines: limitation of liability, indemnity, data protection" },
+      { "agent": "Risk summariser", "model": "Sonnet 5.5", "kind": "agent", "task": "Write the risk note for the lawyer and the deal owner, with approvals needed" },
+      { "agent": "Commercial lawyer", "kind": "human", "task": "Sign off every redline before it leaves; full review of MSAs and off-playbook asks" },
+      { "agent": "CLM write-back", "kind": "system", "task": "Write tracked changes, clause metadata, approvals and the reviewer to the CLM" }
+    ]
+  }
+}

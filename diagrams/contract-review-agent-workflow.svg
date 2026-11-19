@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1146" width="1200" height="1146" role="img" aria-labelledby="t d">
+  <title id="t">contract review against a playbook: before and after</title>
+  <desc id="d">Left: today: manual, 8 manual steps, ≈ 93 min of legal time per contract (blended). Right: agent workflow, 9 steps, ≈ 27 min of legal time per contract (blended).</desc>
+  <rect width="1200" height="1146" fill="#06050f"/>
+  <text x="40" y="52" font-family="Instrument Serif, Georgia, 'Times New Roman', serif" font-size="32" fill="#f2f0fa">contract review against a playbook: before and after</text>
+  <line x1="600" y1="82" x2="600" y2="1106" stroke="#2b2745"/>
+  <text x="40" y="110" font-family="Instrument Serif, Georgia, 'Times New Roman', serif" font-size="26" fill="#f2f0fa">today: manual</text><text x="640" y="110" font-family="Instrument Serif, Georgia, 'Times New Roman', serif" font-size="26" fill="#f2f0fa">agent workflow</text>
+  
+  <g>
+    <rect x="40" y="132" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="156" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Contract manager</text>
+    <text x="544" y="156" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">5 min</text>
+    <text x="56" y="178" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Log the request in the CLM, pull the deal context, identify</text><text x="56" y="196" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">the paper type and counterparty</text>
+  </g><path d="M300 212 V228" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 224 L300 230 L304 224" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="234" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="258" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Commercial lawyer</text>
+    <text x="544" y="258" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">20 min</text>
+    <text x="56" y="280" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Read the whole contract, including definitions, schedules and</text><text x="56" y="298" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">cross-references</text>
+  </g><path d="M300 314 V330" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 326 L300 332 L304 326" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="336" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="360" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Commercial lawyer</text>
+    <text x="544" y="360" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">20 min</text>
+    <text x="56" y="382" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Compare each clause with the playbook and note every deviation</text><text x="56" y="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">and missing clause</text>
+  </g><path d="M300 416 V432" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 428 L300 434 L304 428" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="438" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="462" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Commercial lawyer</text>
+    <text x="544" y="462" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">25 min</text>
+    <text x="56" y="484" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Draft redlines and comments, copying fallback wording from</text><text x="56" y="502" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">precedent agreements</text>
+  </g><path d="M300 518 V534" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 530 L300 536 L304 530" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="540" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="564" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Commercial lawyer</text>
+    <text x="544" y="564" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">6 min</text>
+    <text x="56" y="586" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Check the DPA against Article 28 and the security schedule</text><text x="56" y="604" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">against policy</text>
+  </g><path d="M300 620 V636" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 632 L300 638 L304 632" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="642" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="666" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Commercial lawyer</text>
+    <text x="544" y="666" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">8 min</text>
+    <text x="56" y="688" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Write a risk note for the deal owner and request approval for</text><text x="56" y="706" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">off-playbook positions</text>
+  </g><path d="M300 722 V738" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 734 L300 740 L304 734" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="744" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="768" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Senior counsel</text>
+    <text x="544" y="768" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">4 min</text>
+    <text x="56" y="790" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Approve or reject escalated positions on liability, indemnity</text><text x="56" y="808" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">and data protection</text>
+  </g><path d="M300 824 V840" stroke="#8e89a8" stroke-width="1.2"/><path d="M296 836 L300 842 L304 836" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="40" y="846" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="56" y="870" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Contract manager</text>
+    <text x="544" y="870" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">5 min</text>
+    <text x="56" y="892" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Send the redline, track versions and update the CLM record</text>
+  </g>
+  <g>
+    <rect x="640" y="132" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1" stroke-dasharray="5 4"/>
+    <text x="656" y="156" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Intake and segmenter</text>
+    <text x="1144" y="156" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8"></text>
+    <text x="656" y="178" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Convert the file, split it into numbered clauses, attach</text><text x="656" y="196" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">definitions and cross-references</text>
+  </g><path d="M900 212 V228" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 224 L900 230 L904 224" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="234" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="656" y="258" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Clause classifier</text>
+    <text x="1144" y="258" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">Haiku 5.5</text>
+    <text x="656" y="280" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Label each clause against the clause taxonomy, with a</text><text x="656" y="298" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">confidence score</text>
+  </g><path d="M900 314 V330" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 326 L900 332 L904 326" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="336" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="656" y="360" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Playbook comparison</text>
+    <text x="1144" y="360" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">Sonnet 5.5</text>
+    <text x="656" y="382" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Compare each clause with the standard and fallback positions;</text><text x="656" y="400" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">quote every deviation</text>
+  </g><path d="M900 416 V432" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 428 L900 434 L904 428" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="438" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1" stroke-dasharray="5 4"/>
+    <text x="656" y="462" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Coverage checks</text>
+    <text x="1144" y="462" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8"></text>
+    <text x="656" y="484" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Flag missing required clauses, verify quotes word for word,</text><text x="656" y="502" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">apply the approval matrix</text>
+  </g><path d="M900 518 V534" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 530 L900 536 L904 530" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="540" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="656" y="564" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Redline drafter</text>
+    <text x="1144" y="564" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">Sonnet 5.5</text>
+    <text x="656" y="586" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Draft standard redlines from approved fallback wording in the</text><text x="656" y="604" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">clause library</text>
+  </g><path d="M900 620 V636" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 632 L900 638 L904 632" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="642" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="656" y="666" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Redline drafter</text>
+    <text x="1144" y="666" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">Opus 5.5</text>
+    <text x="656" y="688" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Draft non-standard redlines: limitation of liability,</text><text x="656" y="706" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">indemnity, data protection</text>
+  </g><path d="M900 722 V738" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 734 L900 740 L904 734" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="744" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1"/>
+    <text x="656" y="768" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Risk summariser</text>
+    <text x="1144" y="768" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8">Sonnet 5.5</text>
+    <text x="656" y="790" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Write the risk note for the lawyer and the deal owner, with</text><text x="656" y="808" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">approvals needed</text>
+  </g><path d="M900 824 V840" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 836 L900 842 L904 836" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="846" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#ffa54b" stroke-width="1.5"/>
+    <text x="656" y="870" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">Commercial lawyer</text>
+    <text x="1144" y="870" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#ffa54b">human</text>
+    <text x="656" y="892" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Sign off every redline before it leaves; full review of MSAs</text><text x="656" y="910" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">and off-playbook asks</text>
+  </g><path d="M900 926 V942" stroke="#8e89a8" stroke-width="1.2"/><path d="M896 938 L900 944 L904 938" fill="none" stroke="#8e89a8" stroke-width="1.2"/>
+  <g>
+    <rect x="640" y="948" width="520" height="76" rx="10" fill="#0d0b1c" stroke="#2b2745" stroke-width="1" stroke-dasharray="5 4"/>
+    <text x="656" y="972" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#f2f0fa">CLM write-back</text>
+    <text x="1144" y="972" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8e89a8"></text>
+    <text x="656" y="994" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">Write tracked changes, clause metadata, approvals and the</text><text x="656" y="1012" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c9c5dc">reviewer to the CLM</text>
+  </g>
+  <text x="40" y="974" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#f2f0fa">≈ 93 min of legal time per contract (blended)</text><text x="640" y="1076" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#ffa54b">≈ 27 min of legal time per contract (blended)</text>
+  <text x="1160" y="1130" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#8e89a8">brass outline = human checkpoint · dashed = deterministic code · seyhunakyurek.com</text>
+</svg>
