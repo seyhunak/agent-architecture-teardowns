@@ -1,9 +1,10 @@
 # Agent architecture teardowns
 
-Twelve common industry bottlenecks, each re-engineered as a multi-agent AI workflow. Every post diagrams the manual process beside the agent architecture, then shows the exact agents, models, human checkpoints, failure modes, evaluation plan and **API costs worked out from Claude list prices**.
+Thirteen common industry bottlenecks, each re-engineered as a multi-agent AI workflow. Every post diagrams the manual process beside the agent architecture, then shows the exact agents, models, human checkpoints, failure modes, evaluation plan and **API costs worked out from Claude list prices**.
 
 | process | summary |
 |---|---|
+| [Adverse event cases](posts/adverse-event-case-processing-agent-workflow.md) | Processing 1,500 adverse event cases a month with six Claude agents costs about $182 a month in API fees, modelled to save around 1,600 pharmacovigilance hours. |
 | [AML alert triage](posts/aml-alert-triage-agent-workflow.md) | A six-agent workflow that prepares AML alerts for analyst decision at about 6.5 cents of API cost each, cutting staff time from 60 to a modelled 17 minutes. |
 | [Chargeback disputes](posts/chargeback-dispute-agent-workflow.md) | Handling 4,000 chargebacks a month with deterministic evidence code and four Claude agents costs about $176 a month in API fees, modelled to save around 1,400 analyst hours. |
 | [Bank complaint handling](posts/complaint-handling-agent-workflow.md) | Seven agents prepare retail bank complaints for human sign-off at about 16 cents of API cost each, cutting staff time from 84 to a modelled 26 minutes. |

@@ -1,0 +1,33 @@
+{
+  "title": "adverse event case processing: before and after",
+  "before": {
+    "label": "today: manual",
+    "total": "≈ 86 min of pharmacovigilance time per case (blended)",
+    "steps": [
+      { "actor": "Case intake specialist", "task": "Log the source in the safety database, record the receipt date, check the four minimum criteria", "minutes": 10 },
+      { "actor": "Case processor", "task": "Search the safety database for duplicates by patient, product, event and dates", "minutes": 6 },
+      { "actor": "Case processor", "task": "Enter patient, reporter, products, events, history and lab data into E2B(R3) fields", "minutes": 25 },
+      { "actor": "Case processor", "task": "Code events, indications and medical history in MedDRA", "minutes": 8 },
+      { "actor": "Case processor", "task": "Assess seriousness and expectedness against the SmPC", "minutes": 6 },
+      { "actor": "Case processor", "task": "Write the case narrative", "minutes": 12 },
+      { "actor": "QC reviewer", "task": "Check the data entry, coding and narrative against the source", "minutes": 8 },
+      { "actor": "Safety physician", "task": "Medical review of serious cases: seriousness, expectedness, company comment", "minutes": 7 },
+      { "actor": "Submissions specialist", "task": "Generate and submit the E2B(R3) file, check the acknowledgement, track the deadline", "minutes": 4 }
+    ]
+  },
+  "after": {
+    "label": "agent workflow",
+    "total": "≈ 21 min of pharmacovigilance time per case (blended)",
+    "steps": [
+      { "agent": "Intake and clock", "kind": "system", "task": "Ingest call-centre notes, emails, literature and partner E2B files; stamp the receipt time" },
+      { "agent": "Triage and validity", "model": "Haiku 5.5", "kind": "agent", "task": "Separate adverse events from queries and complaints; check the four minimum criteria" },
+      { "agent": "Duplicate adjudicator", "model": "Haiku 5.5", "kind": "agent", "task": "Score candidate duplicates that code found by patient, product, event and dates" },
+      { "agent": "Case data extractor", "model": "Sonnet 5.5", "kind": "agent", "task": "Fill E2B(R3) fields from the source, with a verbatim quote behind every field" },
+      { "agent": "MedDRA coder", "model": "Sonnet 5.5", "kind": "agent", "task": "Choose LLTs from dictionary candidates; code checks each is current in the version in force" },
+      { "agent": "Seriousness and expectedness", "model": "Opus 5.5", "kind": "agent", "task": "Propose seriousness criteria and expectedness against SmPC section 4.8, citing the text" },
+      { "agent": "Narrative writer", "model": "Sonnet 5.5", "kind": "agent", "task": "Draft the case narrative from the coded, structured case" },
+      { "agent": "PV scientist and safety physician", "kind": "human", "task": "QC every case; medical review and sign-off of every serious case" },
+      { "agent": "Deadline and gateway", "kind": "system", "task": "Track 15- and 90-day clocks, validate the E2B(R3) file, submit to EudraVigilance, read ACKs" }
+    ]
+  }
+}
